@@ -11,12 +11,12 @@ cask "rscli@1.0.0" do
 
   on_macos do
     on_intel do
-      url "https://github.com/reysys-technology/rscli/releases/download/v1.0.0/rscli_darwin_amd64"
+      url "https://github.com/reysys-technology/rscli/releases/download/v#{version}/rscli_darwin_amd64"
       sha256 "428f30045ad6c5dabdd1516717dd880bd5b1ec46ef17b6dc4c1150890e4a7170"
       binary "rscli_darwin_amd64", target: "rscli"
     end
     on_arm do
-      url "https://github.com/reysys-technology/rscli/releases/download/v1.0.0/rscli_darwin_arm64"
+      url "https://github.com/reysys-technology/rscli/releases/download/v#{version}/rscli_darwin_arm64"
       sha256 "a9accf2268ef0a9d34a1e7abefb7ce5be0b2d54a21830f950f445a92eed09b19"
       binary "rscli_darwin_arm64", target: "rscli"
     end
@@ -24,12 +24,12 @@ cask "rscli@1.0.0" do
 
   on_linux do
     on_intel do
-      url "https://github.com/reysys-technology/rscli/releases/download/v1.0.0/rscli_linux_amd64"
+      url "https://github.com/reysys-technology/rscli/releases/download/v#{version}/rscli_linux_amd64"
       sha256 "ca5b727dc603d6f58e10fb28bc81bd4a207ce108daa754f9e6213e75fc7130d2"
       binary "rscli_linux_amd64", target: "rscli"
     end
     on_arm do
-      url "https://github.com/reysys-technology/rscli/releases/download/v1.0.0/rscli_linux_arm64"
+      url "https://github.com/reysys-technology/rscli/releases/download/v#{version}/rscli_linux_arm64"
       sha256 "4246b1b7a6770ce6ec8bcd3c4bb5f25929e7196bc44f8096ec34957e1e69d5d9"
       binary "rscli_linux_arm64", target: "rscli"
     end
